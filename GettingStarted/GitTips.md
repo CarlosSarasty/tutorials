@@ -7,17 +7,18 @@ This repository is managed using Git, which is a version control system. The pur
 this allowed a more secure way to access your remote repo. 
 
 1 create a new key using the following command  ( don't include << >>) 
-ssh-keygen -t ed25519 -C <<your-email>>
-2 copy the key to clipboard using 
+ssh-keygen -t ed25519 -C <<your-email>>.
+
+2 copy the key to clipboard using. 
 cat < ~/.ssh/id_ed25519.pub | pbcopy or clip < ~/.ssh/id_ed25519.pub
 
 Now add the ssh key to Github following these steps:
 
-1 Log into your github account 
-2 Click on the profile icon and select setings
-3 click on ssh and GPG keys 
-4 Click on New SSH Key 
-5 Give it a title and paste the SSH key
+1 Log into your github account. 
+2 Click on the profile icon and select setings.
+3 click on ssh and GPG keys. 
+4 Click on New SSH Key. 
+5 Give it a title and paste the SSH key.
 
 
 ## Useful commands
