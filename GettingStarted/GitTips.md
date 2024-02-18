@@ -2,15 +2,23 @@
 
 This repository is managed using Git, which is a version control system. The purpose of this system is to maintain a shared base, and to properly version and maintain our code. After you initially clone this repository to your working area, changes you make to code locally will not automatically be propagated back up to the remote repository, nor will changes made by others be automatically propagated down to your local repository. In order to keep your local copy up to date, it is necessary to *push* your local changes, and *pull* down changes from others, which can be done using git commands.
 
-It's possible that Git might ask you to identify yourself when you try to run a command, with an output that begins
+# Add a SSH Key to Github
 
-`*** Please tell me who you are.`
+this allowed a more secure way to access your remote repo. 
 
-You can make these changes by running
+1 create a new key using the following command  ( don't include << >>) 
+ssh-keygen -t ed25519 -C <<your-email>>
+2 copy the key to clipboard using 
+cat < ~/.ssh/id_ed25519.pub | pbcopy or clip < ~/.ssh/id_ed25519.pub
 
-`git config --global user.email "your email address"`
+Now add the ssh key to Github following these steps:
 
-`git config --global user.name "your name"`
+1 Log into your github account 
+2 Click on the profile icon and select setings
+3 click on ssh and GPG keys 
+4 Click on New SSH Key 
+5 Give it a title and paste the SSH key
+
 
 ## Useful commands
 
