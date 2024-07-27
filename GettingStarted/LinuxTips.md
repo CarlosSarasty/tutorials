@@ -81,5 +81,5 @@ If you ran a command but you want to exit, you can press `Ctrl+C`.
 ## Help me.
 Almost all command come with a help page. If you'd like to see that page do the following:
 ```
-(command_tool) -- help
+(command_tool) -- help or -h
 ```
